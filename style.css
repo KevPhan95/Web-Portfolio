@@ -1,0 +1,65 @@
+body{
+  background-color: whitesmoke;
+  color: #222222;
+}
+
+/* headings */
+
+h1{
+  font-size: 50px;
+  font-family: "Lucida Console", monospace;
+  height: 15px; 
+  text-transform: uppercase;
+  }
+
+h2{
+  font-family: "Lucida Console", monospace;
+}
+
+h3{
+  height: 15px;
+}
+h4{
+  font-family: "Lucida Console", monospace;
+}
+
+/* different tags */
+
+p{
+  font-family: monaco, monospace;
+}
+
+hr {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* different classes */
+
+.center{
+  text-align: center;
+}
+
+.wrapper{
+  margin: auto;
+  width: 700px;
+}
+
+/* Pseudo-classes */
+
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: violet;
+}
+
+a:hover{
+  color: red;
+}
+
+a:active{
+  color: green;
+}
